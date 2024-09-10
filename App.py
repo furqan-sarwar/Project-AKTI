@@ -73,14 +73,9 @@ if uploaded_file is not None:
                 st.markdown(f"**User:**\n\n{user_question}")
                 st.markdown(f"**AI:**\n\n{answer}")
                 
-            else:
-                st.error("Please provide accurate input.")
+     else:
+         st.error("Please provide accurate input.")
 
-            #     # Display the question and answer in separate horizontal cells
-            #     st.markdown(f"**You:** {user_question}")
-            #     st.markdown(f"**AI:** {response}")
-            # else:
-            #     st.error("Please provide an accurate input.")
-
+            
 # else:
     # st.warning("Please upload a PDF file to get started.")
