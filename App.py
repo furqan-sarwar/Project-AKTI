@@ -77,5 +77,3 @@ if uploaded_file is not None:
          st.error("Please provide accurate input.")
 
             
-# else:
-    # st.warning("Please upload a PDF file to get started.")
